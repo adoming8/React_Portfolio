@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1893,24 +1893,27 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/contact.js":
+/*!**************************!*\
+  !*** ./pages/contact.js ***!
+  \**************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Home; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Contact; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_navBar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/navBar */ "./components/navBar.js");
-var _jsxFileName = "/Users/Alfredo/Desktop/React_Portfolio/pages/index.js";
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/Users/Alfredo/Desktop/React_Portfolio/pages/contact.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-function Home() {
+
+function Contact() {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_navBar__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
@@ -1921,94 +1924,144 @@ function Home() {
     class: "row background",
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("div", {
+    class: "offset-sm-1 col-sm-10 offset-sm-4 midsec",
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
   }, __jsx("div", {
-    class: "col-sm-10 offset-sm-1 midsec2",
+    class: "offset-sm-4 row-sm-4 row-sm-4  aboutme",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
   }, __jsx("div", {
-    class: "row-sm-4 offset-sm-4 aboutme2 bio_box",
+    class: "contact-form",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, __jsx("h2", {
+  }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, " About Me"), __jsx("div", {
-    class: "bio_img",
+  }, " Contact"), __jsx("div", {
+    class: "txtb",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }, __jsx("img", {
-    src: "/img/profilepic.png",
-    alt: "my face",
+  }, __jsx("label", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  })), __jsx("div", {
-    class: "bio_text",
+  }, " Full Name"), __jsx("input", {
+    type: "text",
+    name: "",
+    value: "",
+    placeholder: "Enter Your Name",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 14
     },
     __self: this
-  }, __jsx("p", {
+  })), __jsx("div", {
+    class: "txtb",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
-  }, "Been born in a family who values education but never had the opportunity to accomplish their dreams makes me responsibility as the oldest son in the house to push the barrier further in order to inspire my younger siblings to strive for their personal greatness."), __jsx("br", {
+  }, __jsx("label", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, " Email"), __jsx("input", {
+    type: "text",
+    name: "",
+    value: "",
+    placeholder: "Enter Your Email",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
-  }), __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, "Been born in a family who values education but never had the opportunity to accomplish their dreams makes me responsibility as the oldest son in the house to push the barrier further in order to inspire my younger siblings to strive for their personal greatness. "), __jsx("br", {
+  })), __jsx("div", {
+    class: "txtb",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
-  }), __jsx("p", {
+  }, __jsx("label", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
-  }, "Been born in a family who values education but never had the opportunity to accomplish their dreams makes me responsibility as the oldest son in the house to push the barrier further in order to inspire my younger siblings to strive for their personal greatness. "))))));
+  }, " Phone Number"), __jsx("input", {
+    type: "text",
+    name: "",
+    value: "",
+    placeholder: "Enter Your Phone Number",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  })), __jsx("div", {
+    class: "txtb",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, __jsx("label", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "Message :"), __jsx("textarea", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, "lslsl")), __jsx("a", {
+    class: "btn btn-light",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "Send"))))));
 }
 
 /***/ }),
 
-/***/ 3:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
+/***/ 5:
+/*!********************************!*\
+  !*** multi ./pages/contact.js ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/Alfredo/Desktop/React_Portfolio/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /Users/Alfredo/Desktop/React_Portfolio/pages/contact.js */"./pages/contact.js");
 
 
 /***/ }),
@@ -2069,4 +2122,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=contact.js.map
