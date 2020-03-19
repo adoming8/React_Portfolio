@@ -4509,7 +4509,7 @@ function Home() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!**********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2FAlfredo%2FDesktop%2FReact_Portfolio%2Fpages%2Findex.js ***!
   \**********************************************************************************************************************************/
@@ -4532,5 +4532,5 @@ module.exports = dll_82519ec661270f7f484f;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
