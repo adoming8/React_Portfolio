@@ -1,0 +1,73 @@
+
+
+.background {
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+.logo {
+    background-color: Teal;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 30px;
+}
+
+.nav_l {
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+.midsec2 {
+    height: 1103px;
+}
+
+.aboutme2 {
+    height: 402px;
+}
+
+.bio_box {
+    background-color: #ffffff;
+    width: 80%;
+    height: 67%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    margin: 0 auto;
+    overflow: auto;
+    color: teal;
+    margin-top: 120px;
+}
+
+.header_container{
+    background-color: #ffffff;
+    height: 30px;
+    padding: 5px;
+    margin: 3px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.bio_img {
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    padding-top: 10px;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+    max-width: 200px;
+
+}
+
+.bio_text {
+    color: green;
+    padding: 10px;
+}
+
+
